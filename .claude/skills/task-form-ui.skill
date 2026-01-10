@@ -1,0 +1,15 @@
+# Task Form UI Skill
+
+## Description
+Implements task creation and editing forms with validation, error handling, and user feedback.
+
+## Capabilities
+- Create task input forms
+- Implement form validation
+- Handle form submission
+- Display validation errors
+- Provide user feedback
+- Support create and edit modes
+
+## Usage
+Invoke this skill when building task creation or editing forms.

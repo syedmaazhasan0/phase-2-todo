@@ -1,0 +1,14 @@
+# Secure API Guard Skill
+
+## Description
+Implements security measures for API endpoints including authentication validation, authorization checks, and request validation.
+
+## Capabilities
+- JWT token validation middleware
+- User authorization checks
+- Request payload validation
+- Security header management
+- Rate limiting and protection
+
+## Usage
+Invoke this skill when securing API endpoints or implementing security middleware.

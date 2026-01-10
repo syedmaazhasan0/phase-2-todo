@@ -1,0 +1,15 @@
+# Task Actions UI Skill
+
+## Description
+Implements task action buttons and handlers including complete, delete, and edit operations.
+
+## Capabilities
+- Create action buttons (edit, delete, complete)
+- Implement action handlers
+- Show confirmation dialogs
+- Handle optimistic updates
+- Manage loading states
+- Display success/error feedback
+
+## Usage
+Invoke this skill when implementing task action buttons or handlers.

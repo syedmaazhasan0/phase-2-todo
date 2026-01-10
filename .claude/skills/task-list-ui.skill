@@ -1,0 +1,15 @@
+# Task List UI Skill
+
+## Description
+Implements task list display components including filtering, sorting, and user-specific task views.
+
+## Capabilities
+- Create task list components
+- Implement filtering and sorting
+- Display task metadata
+- Handle empty states
+- Show loading states
+- Implement responsive design
+
+## Usage
+Invoke this skill when building or modifying task list display components.

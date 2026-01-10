@@ -1,0 +1,15 @@
+# UI State Handling Skill
+
+## Description
+Manages UI state including loading states, error states, authentication state, and optimistic updates.
+
+## Capabilities
+- Implement state management patterns
+- Handle loading indicators
+- Manage error boundaries
+- Track authentication state
+- Implement optimistic UI updates
+- Manage form state
+
+## Usage
+Invoke this skill when implementing state management or handling UI states.

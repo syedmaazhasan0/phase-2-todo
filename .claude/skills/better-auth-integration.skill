@@ -1,0 +1,14 @@
+# Better Auth Integration Skill
+
+## Description
+Handles Better Auth authentication integration including JWT token management, session handling, and authentication flows.
+
+## Capabilities
+- Configure Better Auth with JWT
+- Implement authentication middleware
+- Handle token generation and validation
+- Manage user sessions
+- Implement login/logout flows
+
+## Usage
+Invoke this skill when setting up or modifying authentication systems.

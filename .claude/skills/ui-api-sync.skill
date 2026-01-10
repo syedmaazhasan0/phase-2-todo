@@ -1,0 +1,15 @@
+# UI API Sync Skill
+
+## Description
+Synchronizes UI state with backend API including data fetching, caching, and real-time updates.
+
+## Capabilities
+- Implement data fetching patterns
+- Handle cache invalidation
+- Manage data synchronization
+- Implement polling strategies
+- Handle stale data
+- Optimize API calls
+
+## Usage
+Invoke this skill when synchronizing frontend state with backend data.

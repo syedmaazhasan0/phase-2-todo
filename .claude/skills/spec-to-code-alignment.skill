@@ -1,0 +1,14 @@
+# Spec to Code Alignment Skill
+
+## Description
+Ensures implementation aligns with specifications including API contracts, data models, and requirements validation.
+
+## Capabilities
+- Validate implementation against specifications
+- Check API endpoint compliance
+- Verify data model consistency
+- Ensure requirement coverage
+- Generate alignment reports
+
+## Usage
+Invoke this skill when validating implementations or checking spec compliance.

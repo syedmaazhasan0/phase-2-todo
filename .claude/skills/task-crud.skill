@@ -1,0 +1,14 @@
+# Task CRUD Skill
+
+## Description
+Implements complete CRUD operations for task management including create, read, update, and delete functionality.
+
+## Capabilities
+- Create new tasks with validation
+- Retrieve tasks with filtering and pagination
+- Update existing tasks
+- Delete tasks with proper cleanup
+- Handle user-specific task isolation
+
+## Usage
+Invoke this skill when implementing task management endpoints or operations.

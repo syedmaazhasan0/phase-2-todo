@@ -1,0 +1,14 @@
+# Phase 2 Validation Skill
+
+## Description
+Validates Phase 2 requirements including multi-user support, authentication, data isolation, and security compliance.
+
+## Capabilities
+- Verify multi-user data isolation
+- Validate authentication implementation
+- Check JWT token handling
+- Ensure user-specific queries
+- Validate security requirements
+
+## Usage
+Invoke this skill when validating Phase 2 compliance or before deployment.

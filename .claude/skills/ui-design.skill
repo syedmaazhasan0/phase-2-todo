@@ -1,0 +1,15 @@
+# UI Design Skill
+
+## Description
+Implements UI design patterns including layout, styling, responsiveness, and accessibility.
+
+## Capabilities
+- Create responsive layouts
+- Implement Tailwind CSS styling
+- Ensure accessibility (ARIA labels, keyboard navigation)
+- Design consistent UI patterns
+- Implement dark mode support
+- Create reusable components
+
+## Usage
+Invoke this skill when designing or styling UI components.

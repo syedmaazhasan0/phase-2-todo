@@ -1,0 +1,14 @@
+# Frontend Backend Integration Skill
+
+## Description
+Handles integration between Next.js frontend and FastAPI backend including API client setup, JWT handling, and error management.
+
+## Capabilities
+- Configure API client with base URL
+- Implement JWT token attachment
+- Handle authentication state
+- Manage API error responses
+- Coordinate frontend-backend data flow
+
+## Usage
+Invoke this skill when connecting frontend to backend or troubleshooting integration issues.

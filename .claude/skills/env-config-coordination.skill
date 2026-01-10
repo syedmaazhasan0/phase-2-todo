@@ -1,0 +1,14 @@
+# Environment Configuration Coordination Skill
+
+## Description
+Manages environment configuration across frontend and backend including secrets, database URLs, and API endpoints.
+
+## Capabilities
+- Coordinate environment variables
+- Validate configuration completeness
+- Manage shared secrets (JWT signing keys)
+- Configure database connections
+- Set up API endpoint URLs
+
+## Usage
+Invoke this skill when setting up environments or troubleshooting configuration issues.
