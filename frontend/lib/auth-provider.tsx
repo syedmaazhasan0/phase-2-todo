@@ -22,6 +22,8 @@ const SessionContext = createContext<SessionContextType>({
   user: null,
   isLoading: true,
   isAuthenticated: false,
+  refreshSession: async () => {},
+  logout: async () => {},
 });
 
 /**

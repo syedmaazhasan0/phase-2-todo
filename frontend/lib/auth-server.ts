@@ -37,13 +37,6 @@ export const auth = betterAuth({
   // Social providers (optional - enable as needed)
   socialProviders: {}, // Add providers like google, github as needed
 
-  // Advanced options
-  advanced: {
-    generateId: () => {
-      // Use crypto.randomUUID() for secure UUID generation
-      return crypto.randomUUID();
-    },
-  },
 
   // Session configuration
   session: {
