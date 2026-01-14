@@ -10,7 +10,7 @@ import type {
  * Base URL for the backend API.
  * Configured via NEXT_PUBLIC_API_URL environment variable.
  */
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://127.0.0.1:8000';
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'https://maazhassan-todo-deploy.hf.space';
 
 /**
  * Request timeout in milliseconds (10 seconds).

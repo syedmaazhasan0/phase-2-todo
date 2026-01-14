@@ -71,7 +71,9 @@
       "Bash(npm install -g vercel)",
       "Bash(npx vercel)",
       "Bash(npx vercel --prod)",
-      "Bash(git add frontend/components/Footer.tsx)"
+      "Bash(git add frontend/components/Footer.tsx)",
+      "Bash(chmod +x deploy_to_hf.sh)",
+      "Bash(./deploy_to_hf.sh)"
     ]
   }
 }

@@ -59,7 +59,7 @@ frontend/
 
 - Node.js 18.x or higher
 - npm 9.x or higher
-- Backend API running on `http://localhost:8000`
+- Backend API running on `https://maazhassan-todo-deploy.hf.space`
 
 ### Installation
 
@@ -83,7 +83,7 @@ frontend/
    BETTER_AUTH_URL=http://localhost:3000
 
    # Backend API URL
-   NEXT_PUBLIC_API_URL=http://localhost:8000
+   NEXT_PUBLIC_API_URL=https://maazhassan-todo-deploy.hf.space
    ```
 
    **IMPORTANT**: The `BETTER_AUTH_SECRET` must match the one used in your backend.
@@ -148,7 +148,7 @@ npx tsc --noEmit
 |----------|-----------|-------------|---------|
 | `BETTER_AUTH_SECRET` | Yes | Secret key for JWT signing | `abc123...xyz` |
 | `BETTER_AUTH_URL` | Yes | Frontend URL for callbacks | `http://localhost:3000` |
-| `NEXT_PUBLIC_API_URL` | Yes | Backend API base URL | `http://localhost:8000` |
+| `NEXT_PUBLIC_API_URL` | Yes | Backend API base URL | `https://maazhassan-todo-deploy.hf.space` |
 
 **Note**: Variables prefixed with `NEXT_PUBLIC_` are exposed to the browser.
 
@@ -190,7 +190,7 @@ npx tsc --noEmit
 
 ### Authentication not working
 
-1. Verify backend is running on `http://localhost:8000`
+1. Verify backend is accessible at `https://maazhassan-todo-deploy.hf.space`
 2. Check `NEXT_PUBLIC_API_URL` in `.env.local`
 3. Verify `BETTER_AUTH_SECRET` matches between frontend and backend
 4. Check browser console for CORS errors

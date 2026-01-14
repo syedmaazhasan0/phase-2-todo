@@ -3,7 +3,7 @@
  * Handles login, signup, and session management with the custom backend.
  */
 
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://127.0.0.1:8000';
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'https://maazhassan-todo-deploy.hf.space';
 
 // Cache for the JWT token to avoid repeated localStorage calls
 let tokenCache: string | null = null;
@@ -128,7 +128,7 @@ export async function signIn(email: string, password: string) {
   } catch (error) {
     console.error('Full login error:', error);
     if (error instanceof TypeError && error.message.includes('fetch')) {
-      throw new Error('Unable to connect to authentication server. Please make sure the backend is running on http://127.0.0.1:8000');
+      throw new Error('Unable to connect to authentication server. Please make sure the backend is accessible at https://maazhassan-todo-deploy.hf.space');
     }
     return { data: null, error: { message: error instanceof Error ? error.message : 'Login failed' } };
   }
@@ -179,7 +179,7 @@ export async function signUp(email: string, password: string, name: string) {
   } catch (error) {
     console.error('Full registration error:', error);
     if (error instanceof TypeError && error.message.includes('fetch')) {
-      throw new Error('Unable to connect to authentication server. Please make sure the backend is running on http://127.0.0.1:8000');
+      throw new Error('Unable to connect to authentication server. Please make sure the backend is accessible at https://maazhassan-todo-deploy.hf.space');
     }
     return { data: null, error: { message: error instanceof Error ? error.message : 'Registration failed' } };
   }
