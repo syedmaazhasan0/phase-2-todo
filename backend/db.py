@@ -11,8 +11,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-# Use database URL from environment, default to SQLite for Hugging Face Spaces
-DATABASE_URL = os.getenv("DATABASE_URL", "sqlite:///./todo_app.db")
+# Use PostgreSQL with Neon
+DATABASE_URL = os.getenv("DATABASE_URL", "postgresql+psycopg://user:pass@localhost/db")
 
 # The URL already has the correct driver prefix from .env
 database_url = DATABASE_URL

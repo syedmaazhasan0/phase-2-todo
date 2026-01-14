@@ -7,4 +7,3 @@ python-dotenv
 passlib[bcrypt]
 python-jose[cryptography]
 httpx
-aiosqlite
